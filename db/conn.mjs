@@ -1,4 +1,4 @@
-const { MongoClient } = require("mongodb");
+import { MongoClient } from "mongodb";
 
 const connectionString = process.env.ATLAS_URI || "";
 
@@ -13,4 +13,4 @@ try {
 
 let records_db = conn.db("sample_training");
 
-module.exports = records_db;
+export default records_db;
