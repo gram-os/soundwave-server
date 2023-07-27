@@ -62,4 +62,4 @@ router.delete("/:id", async (req, res) => {
     res.send(result).status(200);
 })
 
-export default router;
+module.exports = router

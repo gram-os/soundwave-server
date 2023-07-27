@@ -13,4 +13,4 @@ try {
 
 let records_db = conn.db("sample_training");
 
-export default records_db;
+module.exports = records_db;
