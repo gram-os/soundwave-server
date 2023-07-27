@@ -8,7 +8,7 @@ let conn;
 try {
     conn = await client.connect();
 } catch (e) {
-    console.log(e);
+    console.error(e);
 }
 
 let records_db = conn.db("sample_training");

@@ -1,9 +1,7 @@
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
+import 'dotenv/config'
 import records from "./routes/record.mjs";
-
-dotenv.config()
 
 const PORT = process.env.PORT || 5050;
 const app = express();
