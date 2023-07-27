@@ -1,5 +1,5 @@
 const express = require("express");
-const db = require("../db/conn.js");
+const db = require("../db/conn.mjs");
 const { ObjectId } = require("mongodb");
 
 const router = express.Router();
