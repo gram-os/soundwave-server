@@ -1,5 +1,5 @@
 import express from "express";
-import {records_db as db} from "../db/conn.js";
+import {records_db as db} from "../db/conn.mjs";
 import { ObjectId } from "mongodb";
 
 const router = express.Router();
