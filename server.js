@@ -1,7 +1,7 @@
-import express from "express";
-import cors from "cors";
-import dotenv from "dotenv";
-import records from "./routes/record.js";
+const express = require("express")
+const cors = require("cors");
+const dotenv = require("dotenv");
+const records = require("./routes/record.js");
 
 dotenv.config()
 

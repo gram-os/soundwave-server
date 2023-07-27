@@ -1,6 +1,6 @@
-import express from "express";
-import {records_db as db} from "../db/conn.js";
-import { ObjectId } from "mongodb";
+const express = require("express");
+const db = require("../db/conn.js");
+const { ObjectId } = require("mongodb");
 
 const router = express.Router();
 
